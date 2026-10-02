@@ -1,0 +1,23 @@
+name: 错误与建议
+description: 报告书稿错误、操作问题或阅读建议。
+title: "[反馈] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 相关页面
+      description: 请填写页面标题或链接。
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 问题或建议
+      description: 如为操作问题，请说明预期结果、实际结果和复现步骤。
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Unity 版本与操作系统（如适用）
+
