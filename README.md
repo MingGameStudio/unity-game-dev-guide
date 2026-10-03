@@ -2,7 +2,7 @@
 
 Ming 编写与维护 · 小明工作室
 
-[在线阅读](https://minggamestudio2026term2.github.io/unity-game-dev-guide/) · [维护说明](docs/maintenance.md) · [章节模板](templates/chapter.md)
+[在线阅读](https://minggamestudio.github.io/unity-game-dev-guide/) · [维护说明](docs/maintenance.md) · [章节模板](templates/chapter.md)
 
 > 当前处于初始搭建阶段，正文尚在准备中。
 
