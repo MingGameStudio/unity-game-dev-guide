@@ -5,15 +5,35 @@ import { fileURLToPath } from 'node:url'
 const repository = process.env.GITHUB_REPOSITORY || 'MingGameStudio/unity-game-dev-guide'
 const repoUrl = 'https://github.com/' + repository
 const repoName = repository.split('/')[1]
-const guideDirectory = fileURLToPath(new URL('../guide/', import.meta.url))
-const chapters = readdirSync(guideDirectory)
-  .filter(name => name.endsWith('.md') && name !== 'index.md')
-  .sort((a, b) => a.localeCompare(b, 'en', { numeric: true }))
-  .map(name => {
-    const body = readFileSync(guideDirectory + name, 'utf8')
-    const title = body.match(/^#\s+(.+)$/m)?.[1] || name.replace(/\.md$/, '')
-    return { text: title, link: '/guide/' + name.replace(/\.md$/, '') }
-  })
+const sections = [
+  {
+    "slug": "2d-platformer",
+    "text": "2D 入门 · Pixel Adventure"
+  },
+  {
+    "slug": "3d-tower-defense",
+    "text": "3D 入门 · Blender 塔防"
+  },
+  {
+    "slug": "shaders",
+    "text": "Shader · 3D Graphics"
+  },
+  {
+    "slug": "mine-beyond",
+    "text": "开发实践 · Mine Beyond"
+  }
+]
+function chaptersIn(folder) {
+  const directory = fileURLToPath(new URL('../guide/' + folder + '/', import.meta.url))
+  return readdirSync(directory)
+    .filter(name => name.endsWith('.md') && name !== 'index.md')
+    .sort((a, b) => a.localeCompare(b, 'en', { numeric: true }))
+    .map(name => {
+      const body = readFileSync(directory + name, 'utf8')
+      const title = body.match(/^#\s+(.+)$/m)?.[1] || name.replace(/\.md$/, '')
+      return { text: title, link: '/guide/' + folder + '/' + name.replace(/\.md$/, '') }
+    })
+}
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -25,12 +45,20 @@ export default defineConfig({
     siteTitle: '小明工作室 · Unity 入门',
     nav: [
       { text: '开始阅读', link: '/guide/' },
+      { text: '四大部分', items: sections.map(section => ({ text: section.text, link: '/guide/' + section.slug + '/' })) },
       { text: '维护指南', link: '/maintenance' },
       { text: '关于', link: '/about' }
     ],
     sidebar: [
       { text: '开始', items: [{ text: '阅读说明', link: '/guide/' }] },
-      { text: '正文', items: chapters },
+      ...sections.map(section => ({
+        text: section.text,
+        collapsed: true,
+        items: [
+          { text: '本部分概览', link: '/guide/' + section.slug + '/' },
+          ...chaptersIn(section.slug)
+        ]
+      })),
       { text: '参与与维护', items: [
         { text: '维护指南', link: '/maintenance' },
         { text: '关于本书', link: '/about' }
