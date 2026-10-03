@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { readdirSync, readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
-const repository = process.env.GITHUB_REPOSITORY || 'MingGameStudio2026Term2/unity-game-dev-guide'
+const repository = process.env.GITHUB_REPOSITORY || 'MingGameStudio/unity-game-dev-guide'
 const repoUrl = 'https://github.com/' + repository
 const repoName = repository.split('/')[1]
 const guideDirectory = fileURLToPath(new URL('../guide/', import.meta.url))
