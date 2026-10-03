@@ -16,12 +16,21 @@ GitHub 的 Preview 是 Markdown 预览，不是本站完整排版。浏览器未
 ## 新增章节：只需新增一个文件
 
 1. 在仓库打开 `templates/chapter.md`，复制模板内容。
-2. 进入 `docs/guide/`，选择 Add file → Create new file。
+2. 进入对应分部的目录（见下表），选择 Add file → Create new file。
 3. 使用带数字前缀的英文文件名，例如 `02-your-topic.md`。
 4. 粘贴模板，把第一行 `# 标题` 改成章节名称并填写内容。
 5. 提交后，发布过程会自动按文件名排序生成目录，无需修改网站配置。
 
-每个章节必须保留一行明确的一级标题。目录只扫描 `docs/guide/` 当前目录内的 Markdown 文件；`index.md` 用作阅读说明。
+每个章节必须保留一行明确的一级标题。目录会分别扫描以下四个分部目录内的 Markdown 文件；每个目录的 `index.md` 是分部概览。
+
+| 分部 | 章节目录 |
+| --- | --- |
+| 2D 入门 · Pixel Adventure | `docs/guide/2d-platformer/` |
+| 3D 入门 · Blender 塔防 | `docs/guide/3d-tower-defense/` |
+| Shader · 3D Graphics | `docs/guide/shaders/` |
+| 开发实践 · Mine Beyond | `docs/guide/mine-beyond/` |
+
+新增章节会自动加入侧边栏。若要在分部概览的章节表中展示它，请同时在该目录的 `index.md` 添加一行链接。
 
 新增文件后，本地开发预览如果未更新目录，请重启开发服务器。
 
