@@ -4,11 +4,11 @@ Ming 编写与维护 · 小明工作室
 
 [在线阅读](https://minggamestudio.github.io/unity-game-dev-guide/) · [维护说明](docs/maintenance.md) · [章节模板](templates/chapter.md)
 
-> 当前处于初始搭建阶段，正文尚在准备中。
+> 四个分部的框架已建立，正文将随课程与开发实践逐步补充。
 
 ## 从哪里开始写
 
-直接编辑 [第一章](docs/guide/01-first-page.md)。每个章节放在 `docs/guide/`，例如 `02-your-topic.md`，第一行使用 `# 章节标题`。网站会自动按文件名排序生成目录。
+从下方的四个分部选择章节进行编辑。新章节放入对应的 `docs/guide/<分部>/` 目录，使用带数字前缀的文件名，并以 `# 章节标题` 开头。网站会自动按文件名排序生成分部目录；具体步骤见维护说明。
 
 ## 自动发布
 
@@ -31,3 +31,12 @@ npm run docs:dev
 
 尚未选择开放许可。公开仓库不代表任意转载或商用授权。后续由作者决定正文、示例代码及素材的许可方式。
 
+
+## 全书结构
+
+- [第一部分：Unity 2D 游戏开发入门](docs/guide/2d-platformer/index.md)：使用 Pixel Adventure 像素资源，制作一款 2D 平台跳跃游戏（Platformer）。
+- [第二部分：Unity 3D 游戏开发入门](docs/guide/3d-tower-defense/index.md)：用 Blender 制作美术资源，在 Unity 中制作一款 3D 塔防游戏。
+- [第三部分：Unity Shader 与 3D Graphics 入门](docs/guide/shaders/index.md)：以 Unity Shader 制作游戏中常用的视觉效果，作为 3D Graphics 的入门课。
+- [第四部分：Mine Beyond 开发实践](docs/guide/mine-beyond/index.md)：记录小明工作室第一个计划在 Steam 上线的游戏 Mine Beyond 的开发过程。
+
+当前已建立基本框架，章节正文待编写；Shader 具体内容规划中。
