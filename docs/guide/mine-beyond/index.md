@@ -2,6 +2,10 @@
 
 记录小明工作室第一个计划在 Steam 上线的游戏 Mine Beyond 的开发过程。
 
+TODO: Rename Space Miner to Mine Beyond
+
+TODO: Early feedback/marketing post on reddit
+
 ::: info 框架已建立 · 正文待编写
 以下为初步章节框架，后续随课程与开发实践补充操作步骤、代码、截图和练习。
 :::
