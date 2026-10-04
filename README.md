@@ -29,7 +29,9 @@ npm run docs:dev
 
 ## 内容与授权
 
-尚未选择开放许可。公开仓库不代表任意转载或商用授权。后续由作者决定正文、示例代码及素材的许可方式。
+除另有标注外，本书由 Ming 原创并有权授权的正文文字，采用 [CC BY-NC-SA 4.0（署名—非商业性使用—相同方式共享 4.0 国际）](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans) 许可。
+
+此许可仅适用于正文文字；代码、游戏素材和第三方内容以各自许可为准。详情见 [版权与许可](docs/license.md) 和 [LICENSE.md](LICENSE.md)。
 
 
 ## 全书结构
