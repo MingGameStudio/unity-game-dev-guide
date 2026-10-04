@@ -61,7 +61,8 @@ export default defineConfig({
       })),
       { text: '参与与维护', items: [
         { text: '维护指南', link: '/maintenance' },
-        { text: '关于本书', link: '/about' }
+        { text: '关于本书', link: '/about' },
+        { text: '版权与许可', link: '/license' }
       ]}
     ],
     socialLinks: [{ icon: 'github', link: repoUrl }],
@@ -75,7 +76,7 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
     skipToContentLabel: '跳转到正文',
-    footer: { message: 'Ming 编写与维护 · 小明工作室', copyright: '© 2026 Ming Game Studio' },
+    footer: { message: 'Ming 编写与维护 · 小明工作室', copyright: '© 2026 Ming Game Studio · 正文 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">CC BY-NC-SA 4.0</a> · <a href="/' + repoName + '/license.html">适用范围</a>' },
     search: {
       provider: 'local',
       options: {
