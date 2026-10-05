@@ -7,6 +7,7 @@
 ## 第一周
 - 回顾在Blender中为模型绘制纹理的步骤（为理解Shader Graph中的Base Color输入打下基础）
 - 创建第一个Shader Graph并应用到一个3D方块上
+- 实现Dissolve Effect
 
 ## 待确定事项
 
