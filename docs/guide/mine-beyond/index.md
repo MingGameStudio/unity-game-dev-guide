@@ -1,4 +1,4 @@
-# 第四部分：Mine Beyond 开发实践
+# 第三部分：Mine Beyond 开发实践
 
 记录小明工作室第一个计划在 Steam 上线的游戏 Mine Beyond 的开发过程。
 

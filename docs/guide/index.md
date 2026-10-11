@@ -1,21 +1,19 @@
 # 阅读说明
 
-欢迎来到《Unity 游戏开发入门指南》。本书由 Ming 编写与维护，将小明工作室的课程与真实游戏开发经验整理成四个部分。
+欢迎来到《Unity 游戏开发入门指南》。本书由 Ming 编写与维护，将小明工作室的课程与真实游戏开发经验整理成三个部分。
 
-## 全书四个部分
+## 全书三个部分
 
 | 部分 | 项目与方向 | 当前状态 |
 | --- | --- | --- |
 | [第一部分：Unity 2D 游戏开发入门](./2d-platformer/index.md) | 使用 Pixel Adventure 像素资源，制作一款 2D 平台跳跃游戏（Platformer）。 | 章节框架已建立，正文待编写 |
 | [第二部分：Unity 3D 游戏开发入门](./3d-tower-defense/index.md) | 用 Blender 制作美术资源，在 Unity 中制作一款 3D 塔防游戏。 | 章节框架已建立，正文待编写 |
-| [第三部分：Unity Shader 与 3D Graphics 入门](./shaders/index.md) | 以 Unity Shader 制作游戏中常用的视觉效果，作为 3D Graphics 的入门课。 | 内容规划中 |
-| [第四部分：Mine Beyond 开发实践](./mine-beyond/index.md) | 记录小明工作室第一个计划在 Steam 上线的游戏 Mine Beyond 的开发过程。 | 章节框架已建立，正文待编写 |
+| [第三部分：Mine Beyond 开发实践](./mine-beyond/index.md) | 记录小明工作室第一个计划在 Steam 上线的游戏 Mine Beyond 的开发过程。 | 章节框架已建立，正文待编写 |
 
 ## 如何选择学习路径
 
 - **第一次接触 Unity**：从 Pixel Adventure 2D 平台游戏开始。
 - **想制作 3D 游戏与自己的美术资源**：在掌握 Unity 基础后，进入 Blender 与塔防部分。
-- **想理解游戏视觉效果**：关注 Shader 与 3D Graphics 部分，具体课程尚在规划。
 - **想了解真实项目如何开发并准备上线**：选读 Mine Beyond 开发实践。
 
 这些部分可以按学习目标选择，不必等待所有内容完成后再开始阅读。

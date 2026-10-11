@@ -15,10 +15,6 @@ const sections = [
     "text": "3D 入门 · Blender 塔防"
   },
   {
-    "slug": "shaders",
-    "text": "Shader · 3D Graphics"
-  },
-  {
     "slug": "mine-beyond",
     "text": "开发实践 · Mine Beyond"
   }
@@ -45,7 +41,7 @@ export default defineConfig({
     siteTitle: '小明工作室 · Unity 入门',
     nav: [
       { text: '开始阅读', link: '/guide/' },
-      { text: '四大部分', items: sections.map(section => ({ text: section.text, link: '/guide/' + section.slug + '/' })) },
+      { text: '三大部分', items: sections.map(section => ({ text: section.text, link: '/guide/' + section.slug + '/' })) },
       { text: '维护指南', link: '/maintenance' },
       { text: '关于', link: '/about' }
     ],
