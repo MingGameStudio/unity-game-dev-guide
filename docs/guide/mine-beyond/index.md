@@ -2,9 +2,8 @@
 
 记录小明工作室第一个计划在 Steam 上线的游戏 Mine Beyond 的开发过程。
 
-TODO: Rename Space Miner to Mine Beyond
-
-TODO: Early feedback/marketing post on reddit
+Early feedback/marketing post on reddit:
+Reddit 1.5k浏览
 
 ::: info 框架已建立 · 正文待编写
 以下为初步章节框架，后续随课程与开发实践补充操作步骤、代码、截图和练习。
@@ -33,5 +32,21 @@ TODO: Early feedback/marketing post on reddit
 ## 项目状态
 
 Mine Beyond 计划在 Steam 上线；本部分记录开发与发布准备，不代表游戏已经发布。具体案例将以实际项目和测试结果为依据。
+
+## 胡思乱想
+---
+
+11-10-2026
+
+游戏开发需要学会从别的艺术或媒体吸取创意和灵感，所以一定要给别的娱乐活动留出时间。写这份文档的时候我正在看一部看起来像是低成本的恐怖片《瘴气营地的青春》，抱歉不能在这里把电影名写完整。
+
+影片开头的一幕里，女主角在一个荒废的影院里看一部恐怖片。当恐怖片放到凶手即将出现的那一幕，放映机突然卡住，女主角惊吓回头，说出了下面这句台词：
+<img width="1296" height="1300" alt="image" src="https://github.com/user-attachments/assets/9d6e01cb-15ad-4c20-858d-0226c55b28be" />
+
+我原以为这是角色在打破第四面墙，但AI却告诉我这叫做“元电影”，对应的是《史丹利的寓言》、《艾希》这样的“元游戏”。Mine Beyond里的AI助手可以加入这样的台词，“这一趟收获满满的回去，可以好好给飞船升级一下了”。
+
+我超爱这部电影，就好像导演想把电影学院的教科书拍到观众脸上 ：）（虽然观众可能会觉得电影有点无厘头的感觉）
+
+---
 
 [返回全书阅读说明](../index.md)
