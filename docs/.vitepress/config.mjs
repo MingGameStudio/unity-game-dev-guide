@@ -17,6 +17,10 @@ const sections = [
   {
     "slug": "mine-beyond",
     "text": "开发实践 · Mine Beyond"
+  },
+  {
+    "slug": "card-based-development",
+    "text": "创作方法 · 独立游戏的卡片开发法"
   }
 ]
 function chaptersIn(folder) {
@@ -41,7 +45,7 @@ export default defineConfig({
     siteTitle: '小明工作室 · Unity 入门',
     nav: [
       { text: '开始阅读', link: '/guide/' },
-      { text: '三大部分', items: sections.map(section => ({ text: section.text, link: '/guide/' + section.slug + '/' })) },
+      { text: '四大部分', items: sections.map(section => ({ text: section.text, link: '/guide/' + section.slug + '/' })) },
       { text: '维护指南', link: '/maintenance' },
       { text: '关于', link: '/about' }
     ],
